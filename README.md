@@ -28,6 +28,8 @@ AURA_MedXAI/
 ├── app.py               # Streamlit XAI Dashboard
 └── requirements.txt     # Dependency Management
 ```
+** Note:- In modelling.py you will find a Global path defined, named `GLOVE_PATH` That represents the path of the GLOVE embedding 100 Dimensions .txt file stored inside a folder named archive which due to size restraints iI didnot push here, so you have to manually create a folder named `archive` and store the .txt file inside it, which you may download from `glove.6B.100d.txt` - Kaggle as a zip folder which you can extract and run the modelling script to get the desired *.keras* inside MODELS (which you can create since i in this case made the MODELS folder manually so didnot add the os.makedirs(), so if you want you can add it or create a folder manually) and then you may run this scripts. If you want you can also download the GLOVE 200 dimensions .txt as well but if you do that you have to explicitely change the `embedding_dim` in my code from 100 to 200 and if you want to stick with 100 dimension as it is then you may proceed with the code as above. **
+
 ## Deployment
 Clone: ```git clone https://github.com/your-username/AURA-MedXAI.git```
 
