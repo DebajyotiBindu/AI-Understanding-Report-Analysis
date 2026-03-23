@@ -30,5 +30,7 @@ AURA_MedXAI/
 ```
 ## Deployment
 Clone: ```git clone https://github.com/your-username/AURA-MedXAI.git```
+
 Install: ```pip install -r requirements.txt```
+
 Launch: ```streamlit run app.py```
